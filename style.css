@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body
+{
+    background-color: aliceblue;
+}
+.container
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head
+{
+    width: 100%;
+    background-color: coral;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+.Form-BG
+{
+    width: 800px;
+    height: 900px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(250, 215, 202);
+    border-width: 5px;
+    border-radius: 10px;
+    
+}
+.Form-Content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.FieldSet
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 150px;
+    background-color: rgb(250, 215, 202);
+    gap: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: coral;
+}
+.FieldLabel
+{
+    padding-top: 15px;  
+    padding-bottom: 20px;
+    text-align: center;
+    height: 15px;
+    width: 100%;
+    background-color: coral;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+
+input
+{
+    border-style: none;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    border-radius: 20px;
+
+}
+
+button
+{
+    background-color: coral;
+    width: 200px;
+    height: 80px;
+    border-style: solid;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    border-width: 5px;
+    border-color: orangered;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: rgb(250, 147, 109);
+    border-color: rgb(247, 138, 98);
+}
+.button-group
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
